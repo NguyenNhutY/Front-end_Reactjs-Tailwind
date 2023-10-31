@@ -19,7 +19,7 @@
 
 .gpt3__navbar-links_logo img {
     width: 62.56px;
-    height: 16.02px;
+    height: 62.56px;
 }
 
 .gpt3__navbar-links_container {
@@ -61,8 +61,8 @@
     cursor: pointer;
     border-radius: 5px;
 }
-.gpt3__navbar .gpt3__navbar button,
-.gpt3__navbar-menu_container:hover
+.gpt3__navbar button:hover,
+.gpt3__navbar-menu_container button:hover
 {
     opacity: 0.9;
 }

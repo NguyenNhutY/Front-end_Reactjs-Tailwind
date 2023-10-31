@@ -1,5 +1,5 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
+import Logo from '../../assets/y-high-resolution-logo.png';
 import './footer.css';
 
 const Footer = () => (
@@ -14,8 +14,8 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <img src={Logo} alt="logo" />
+        <p>Crechterwoord K12 182 DK Y-Tech, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
@@ -32,7 +32,7 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
+        <p>Crechterwoord K12 182 DK Y-Tech</p>
         <p>085-132567</p>
         <p>info@payme.net</p>
       </div>

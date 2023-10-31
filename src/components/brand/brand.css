@@ -15,3 +15,20 @@
     justify-content: center;
     align-items: center;
 }
+
+@keyframes slide_animationes {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(-12240px);
+    }
+  }
+  @keyframes send_animation_start {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(260px);
+    }
+  }
